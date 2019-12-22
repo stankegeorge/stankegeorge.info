@@ -1,0 +1,24 @@
+{
+  "name": "stankegeorge.info",
+  "version": "1.0.0",
+  "description": "Family site for the Stanke/George clan!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidstanke/stankegeorge.info.git"
+  },
+  "author": "Stanke Family",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidstanke/stankegeorge.info/issues"
+  },
+  "homepage": "https://github.com/davidstanke/stankegeorge.info#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "handlebars": "^4.5.3"
+  }
+}
