@@ -25,6 +25,10 @@ app.get('/wyatt',(req, res) => {
   res.render('wyatt', {layout: 'default', template: 'sam'})
 })
 
+app.get('/dad',(req, res) => {
+  res.render('dad', {layout: 'default', template: 'dad'})
+})
+
 app.listen(port, () => {
   console.log('Server is listening on port ' + port)
 })
